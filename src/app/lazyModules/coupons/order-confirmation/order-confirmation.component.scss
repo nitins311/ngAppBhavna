@@ -1,17 +1,53 @@
-.order-confirmation-header{
-    display: flex;
-    img {
-        margin-left: 200%;
-    }
-    .order-confirmation-msg{
-        flex: 1;
-        width: 30%;
-        flex-direction: row;
-        font-size: 40px;
-        line-height: 40px;
-    }
+.order-confirmation-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 50%
+  }
+
+  .order-confirmation-msg {
+    // flex: 1;
+    // width: 30%;
+    // flex-direction: row;
+    font-size: 40px;
+    line-height: 40px;
+  }
 }
 
-.order-confirmation-textMsg{
-    margin: 15px;
+.order-confirmation-textMsg {
+  margin: 15px;
+}
+
+.order-confirmation-subheader {
+  margin: 25px;
+  background: #007BD5;
+  font-size: x-large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.order-confirmation-instruction {
+  font-size: larger;
+
+}
+
+.order-confirmation-steps {
+  margin-top:2%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .step-icon {
+    width: 120px;
+    // margin:3%;
+  }
+
+  .step-icon img{
+      width: 65%;
+  }
+
+  .step-text{
+    margin: 20px;
+  }
 }
