@@ -1,0 +1,17 @@
+.order-confirmation-header{
+    display: flex;
+    img {
+        margin-left: 200%;
+    }
+    .order-confirmation-msg{
+        flex: 1;
+        width: 30%;
+        flex-direction: row;
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+.order-confirmation-textMsg{
+    margin: 15px;
+}
